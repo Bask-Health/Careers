@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Careers | Bask Health",
+		template: "%s | Bask Health",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Explore rewarding career opportunities at Bask Health! Join our dynamic team dedicated to revolutionizing healthcare through innovative solutions and compassionate service. Discover diverse roles that foster growth and make a real difference in people's lives.",
 	openGraph: {
-		title: "chronark.com",
+		title: "Careers | Bask Health",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		"Explore rewarding career opportunities at Bask Health! Join our dynamic team dedicated to revolutionizing healthcare through innovative solutions and compassionate service. Discover diverse roles that foster growth and make a real difference in people's lives.",
+		url: "https://jobs.bask.health/",
+		siteName: "Careers | Bask Health",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://bask.health/seo/images/social_share_bask_platform.jpg",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "Careers | Bask Health",
 		card: "summary_large_image",
 	},
 	icons: {

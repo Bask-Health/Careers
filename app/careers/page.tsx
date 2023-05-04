@@ -21,10 +21,10 @@ export default async function ProjectsPage() {
 	}, {} as Record<string, number>);
 
 	const featured = allProjects.find(
-		(project) => project.slug === "planetfall",
+		(project) => project.slug === "content-creator",
 	)!;
-	const top2 = allProjects.find((project) => project.slug === "envshare")!;
-	const top3 = allProjects.find((project) => project.slug === "qstash")!;
+	const top2 = allProjects.find((project) => project.slug === "software-engineer")!;
+	const top3 = allProjects.find((project) => project.slug === "sales-associate")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
@@ -45,17 +45,17 @@ export default async function ProjectsPage() {
 			<div className="px-6 pt-16 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
 				<div className="max-w-2xl mx-auto lg:mx-0">
 					<h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
-						Projects
+					Open Positions
 					</h2>
 					<p className="mt-4 text-zinc-400">
-						Some of the projects are from work and some are on my own time.
+					We're currently looking for help in the following areas
 					</p>
 				</div>
 				<div className="w-full h-px bg-zinc-800" />
 
 				<div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
 					<Card>
-						<Link href={`/projects/${featured.slug}`}>
+						<Link href={`/careers/${featured.slug}`}>
 							<article className="relative h-full w-full p-4 md:p-8">
 								<div className="flex justify-between gap-2 items-center">
 									<div className="text-xs text-zinc-100">

@@ -26,7 +26,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 	}
 	if (project.url) {
 		links.push({
-			label: "Website",
+			label: "Apply",
 			href: project.url,
 		});
 	}
@@ -67,7 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://twitter/chronark_">
+						<Link target="_blank" href="https://twitter/baskhealth">
 							<Twitter
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
@@ -76,7 +76,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://github.com/chronark">
+						<Link target="_blank" href="https://github.com/baskhealth">
 							<Github
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
@@ -88,7 +88,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 					</div>
 
 					<Link
-						href="/projects"
+						href="/careers"
 						className={`duration-200 hover:font-medium ${
 							isIntersecting
 								? " text-zinc-400 hover:text-zinc-100"
