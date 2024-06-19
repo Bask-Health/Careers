@@ -21,10 +21,10 @@ export default async function ProjectsPage() {
 	}, {} as Record<string, number>);
 
 	const featured = allProjects.find(
-		(project) => project.slug === "content-creator",
+		(project) => project.slug === "technical-writer",
 	)!;
 	const top2 = allProjects.find((project) => project.slug === "software-engineer")!;
-	const top3 = allProjects.find((project) => project.slug === "sales-associate")!;
+	const top3 = allProjects.find((project) => project.slug === "backend-software-engineer")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
