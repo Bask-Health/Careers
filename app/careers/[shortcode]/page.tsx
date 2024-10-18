@@ -74,13 +74,6 @@ export default async function JobPage({ params }: Props) {
     console.error('Error fetching view count:', error);
     initialViews = 0;
   }
-  const trimDescription = (description: string): string => {
-    // Remove HTML tags
-    const plainText = description.replace(/<[^>]+>/g, '');
-    // Split into sentences
-    const sentences = plainText.match(/[^.!?]+[.!?]+/g) || [];
-    // Take up to 4 sentences
-  };
 
   return (
     <div className="bg-zinc-50 min-h-screen">
@@ -93,7 +86,7 @@ export default async function JobPage({ params }: Props) {
         <h2>Job Details</h2>
         <ul>
           <li>Department: {job.department}</li>
-          <li>Location: {job.location.city}, {job.location.country}</li>
+          <li>Location: {job.location.city || 'New York, NY'}, {job.location.country}</li>
           <li>Employment Type: {job.employment_type}</li>
         </ul>
         <h2>Requirements</h2>
