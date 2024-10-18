@@ -34,12 +34,6 @@ export const Navigation: React.FC = () => {
 						>
 							Bask Health
 						</Link>
-						<Link
-							href="https://forms.clickup.com/14211656/f/dhpj8-32791/L8PHDO88F6T8XALXB5"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							Apply
-						</Link>
 					</div>
 
 					<Link
