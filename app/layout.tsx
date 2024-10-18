@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "Careers | Bask Health",
 		images: [
 			{
-				url: "https://bask.health/seo/images/social_share_bask_platform.jpg",
+				url: "https://jobs.bask.health/Bask-Health-OG-Image-Careers-Page.jpg",
 				width: 1920,
 				height: 1080,
 			},
